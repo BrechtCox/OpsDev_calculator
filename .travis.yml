@@ -11,7 +11,8 @@ script:
 
 notifications: 
   webhooks:
-    $WEBHOOK_URL_DISCORD
+    url:
+      - $WEBHOOK_URL_DISCORD
     on_succes: always
     on_failure: always
 
