@@ -9,6 +9,13 @@ before-script:
 script: 
 - vendor/bin/phpunit
 
+notifications:
+  webhooks:
+  urls:
+    - https://discord.com/channels/796840900318724156/796840900318724158
+  on_succes: always
+  on_failure: always
+
 branches:
   only:
   - main
