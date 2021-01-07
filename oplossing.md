@@ -11,8 +11,8 @@ kan spenderen aan het ontwikkelen van de applicatie. (Salesforce) </br>
 - Een yaml file is een file dat makkelijk leesbaar is en dat information/data bevat. </br>
 </br>
 (C)
-- Je kan de travis.yml file vergelijken met de Jenkins file in Jenkins </br>
-</br>
+- Je kan de travis.yml file vergelijken met de Jenkins file in Jenkins
+
 (D)
 -
 
