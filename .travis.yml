@@ -11,18 +11,18 @@ script:
 after_succes:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
-  - ./send.sh success https://discord.com/api/webhooks/796843083638767668/VQv-qRkZsySMfHBXb2Iw6SKAyrNAH0M-W5dhvimNBmVBUMiny_-qfyTL1JVszvufNjbn
+  - ./send.sh success $WEBHOOK_URL_DISCORD
 
 after_failure:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
-  - ./send.sh success https://discord.com/api/webhooks/796843083638767668/VQv-qRkZsySMfHBXb2Iw6SKAyrNAH0M-W5dhvimNBmVBUMiny_-qfyTL1JVszvufNjbn
+  - ./send.sh success $WEBHOOK_URL_DISCORD
 
 notifications: 
   email:
     recipients:
-      - Brecht.cox@student.pxl.be
-    on_succes: never
+      - $EMAIL_PXL
+    on_succes: always
     on_failure: always
   
 branches:
