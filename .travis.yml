@@ -9,6 +9,13 @@ before-script:
 script: 
 - vendor/bin/phpunit
 
+notifications: 
+  webhooks:
+    urls:
+      - $WEBHOOK_URL
+    on_succes: always
+    on_failure: always
+
 branches:
   only:
   - main
