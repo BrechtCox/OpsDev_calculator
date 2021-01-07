@@ -1,18 +1,28 @@
 language: php
 php: 
-- 7.3
+  - 7.3
 
 before-script: 
-- composer install
+  - composer install
 
 script: 
-- vendor/bin/phpunit
+  - vendor/bin/phpunit
+
+after_succes:
+  - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
+  - chmod +x send.sh
+  - ./send.sh success https://discord.com/api/webhooks/796843083638767668/VQv-qRkZsySMfHBXb2Iw6SKAyrNAH0M-W5dhvimNBmVBUMiny_-qfyTL1JVszvufNjbn
+
+after_failure:
+  - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
+  - chmod +x send.sh
+  - ./send.sh success https://discord.com/api/webhooks/796843083638767668/VQv-qRkZsySMfHBXb2Iw6SKAyrNAH0M-W5dhvimNBmVBUMiny_-qfyTL1JVszvufNjbn
 
 notifications: 
   email:
     recipients:
       - Brecht.cox@student.pxl.be
-    on_succes: always
+    on_succes: never
     on_failure: always
   
 branches:
