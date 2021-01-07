@@ -3,11 +3,9 @@ php:
 - 7.3
 
 before-script: 
-- composer install
+- travis_retry compuser self-update
+- travis_retry composer install
 
 script: 
-- phpunit
+- vendor/bin/phpunit
 
-branches: 
-  only:
-  - master
