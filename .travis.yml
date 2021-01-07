@@ -12,7 +12,7 @@ script:
 notifications: 
   webhooks:
     url:
-      - $WEBHOOK_URL_DISCORD
+      - https://discord.com/api/webhooks/796843083638767668/VQv-qRkZsySMfHBXb2Iw6SKAyrNAH0M-W5dhvimNBmVBUMiny_-qfyTL1JVszvufNjbn
     on_succes: always
     on_failure: always
 
