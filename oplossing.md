@@ -1,3 +1,4 @@
+<pre>
 (A)   
 - Travis CI is een tool die Continious Integration als een service aanbiedt. Dit betekent dat gebruikers geen toegewijde server nodig hebben
 omdat de Travis CI server wordt gehost in de Cloud. Gebruikers kunnen hun Github repository linken met Travis CI, als er daarna bv. een commit wordt
@@ -10,4 +11,9 @@ kan spenderen aan het ontwikkelen van de applicatie. (Salesforce) </br>
 - Een yaml file is een file dat makkelijk leesbaar is en dat information/data bevat. </br>
 </br>
 (C)
-- Je kan de travis.yml file vergelijken met de Jenkins file in Jenkins
+- Je kan de travis.yml file vergelijken met de Jenkins file in Jenkins </br>
+</br>
+(D)
+-
+
+</pre>
