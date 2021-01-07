@@ -7,3 +7,7 @@ before-script:
 
 script: 
 - phpunit
+
+branches: 
+  only:
+  - main
