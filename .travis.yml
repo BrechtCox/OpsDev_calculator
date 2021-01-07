@@ -22,7 +22,7 @@ notifications:
   email:
     recipients:
       - $EMAIL_PXL
-    on_succes: always
+    on_succes: never
     on_failure: always
   
 branches:
