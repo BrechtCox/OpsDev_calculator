@@ -23,9 +23,6 @@ final class CalculatorTest extends TestCase
         $this->assertEquals(1, $calc->subtract(3,2));
     }
     
-        public function testDivideNumbers(): void{
-        $calc = new Calculator();
-        $this->assertEquals(2, $calc->divide(10,5));
-    }
+
 
 }
