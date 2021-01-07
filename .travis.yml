@@ -10,7 +10,8 @@ script:
 - vendor/bin/phpunit
 
 notifications: 
-  webhooks: https://discord.com/api/webhooks/796843083638767668/VQv-qRkZsySMfHBXb2Iw6SKAyrNAH0M-W5dhvimNBmVBUMiny_-qfyTL1JVszvufNjbn
+  email:
+    - Brecht.cox@student.pxl.be
 
 branches:
   only:
