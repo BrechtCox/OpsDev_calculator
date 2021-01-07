@@ -10,7 +10,10 @@ script:
 
 notifications: 
   email:
-    - Brecht.cox@student.pxl.be
+    recipients:
+      - Brecht.cox@student.pxl.be
+    on_succes: always
+    on_failure: always
   
 branches:
   only:
