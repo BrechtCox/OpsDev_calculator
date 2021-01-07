@@ -9,7 +9,7 @@ before-script:
 script: 
 - vendor/bin/phpunit
 
-branch:
+branches:
   only:
   - main
 
