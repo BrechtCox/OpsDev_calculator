@@ -7,4 +7,7 @@ te automatiseren. Alles wordt automatisch gedaan vanaf dat je een commit doet en
 kan spenderen aan het ontwikkelen van de applicatie. (Salesforce) 
 
 (B)
-    
+- Een yaml file is een file dat makkelijk leesbaar is en dat information/data bevat. 
+
+(C)
+- 
