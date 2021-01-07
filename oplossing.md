@@ -14,6 +14,6 @@ kan spenderen aan het ontwikkelen van de applicatie. (Salesforce)
 - Je kan de travis.yml file vergelijken met de Jenkins file in Jenkins
 
 (D)
--
+
 
 </pre>
