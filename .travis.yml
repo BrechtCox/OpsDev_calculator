@@ -12,7 +12,7 @@ script:
 notifications:
   webhooks:
   urls:
-    - https://discord.com/channels/796840900318724156/796840900318724158
+    - https://discord.com/channels/796840900318724156/796840900318724162
   on_succes: always
   on_failure: always
 
